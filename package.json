@@ -1,0 +1,19 @@
+{
+  "name": "html-resume",
+  "version": "1.0.0",
+  "description": "HTML workspace",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-live-server": "^0.0.31",
+    "gulp-livereload": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.54.0"
+  }
+}
