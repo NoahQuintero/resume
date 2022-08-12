@@ -3,6 +3,7 @@
     <head>
         <title>Noah Quintero's Resume</title>
         <link rel="stylesheet" href="styles.css">
+        <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
         <meta charset="UTF-8">
         <meta name="author" content="Noah QUintero">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,19 +11,23 @@
     </head>
     <body>
         <div class="bullet-column">
-            <h1 class="mb-rem">
+            <h1 class="mb-rem mt-0">
                 Noah Quintero
             </h1>
     
             <section>
                 <span>La Crosse, WI</span><br> 
-                <span>Phone: <a href="tel:12623743209">(262)-374-3209</a></span><br>
-                <span>Email: <a href="mailto:noahquintero96@gmail.comk">noahquintero96@gmail.com</a></span>
+                <dl>
+                    <dt>Phone:</dt>
+                    <dd><a href="tel:2623743209">(262) 374-3209</a></dd>
+                    <dt>Email:</dt>
+                    <dd><a href="mailto:noahquintero96@gmail.com">noahquintero96@gmail.com</a></dd>
+                </dl>
             </section>
             
             <h1>Key Skills</h1>
             <section>
-                <ul>
+                <ul class="skill-list">
                     <li>Angular</li>
                     <li>NGRX</li>
                     <li>HTML5</li>
@@ -47,26 +52,33 @@
                 <li>
                     Books/TV/Movies
                 </li>
+                <li>
+                    Construction Toys
+                </li>
             </ul>
         </div>
         
         <div class="content-column">
-            <section>
-                <p>
-                    Insert professional summary here
+            <section class="mt-0">
+                <p class="mt-0">
+                    Software developer with five years of experience in developing modern single-page web applications. 
+                    Strong skills in front-end development with current frameworks and standards, and experience across the spectrum of fullstack development.
+                    Very interested and eager to learn new technology stacks and practices.
                 </p>
             </section>  
-
-            <hr>
 
             <h1>
                 Professional Experience
             </h1>
+            <hr>
             <section>
                 <h2>
-                    Software Engineer: June 2018 - Present
+                    Software Engineer
                 </h2>
-                <h3>OptumServe</h3>
+                <h3 class="flex space-between">
+                    <span>OptumServe</span>
+                    <span>June 2018 - Present</span>
+                </h3>
                 <ul>
                     <li>
                         Implemented interfaces for Angular-based web applications that catered to client, patient, provider, and internal audiences.
@@ -76,38 +88,38 @@
                         Maintained several internal NPM packages that were used across all Angular portals including a fingerprinting library, component and style library, and a dynamic HTML/Angular template renderer.
                     </li>
                     <li>
-                        Developed REST-ful APIs for interaction with web applications
+                        Developed REST-ful APIs for interaction with web applications with corresponding unit and integration tests.
                     </li>
                 </ul>
             </section>
 
             <section>
                 <h2>
-                    Software Intern: June 2017 - 2018
+                    Software Intern
                 </h2>
-                <h3>OptumServe</h3>
+                <h3 class="flex space-between">
+                    <span>OptumServe</span>
+                    <span>June 2017 - 2018</span>
+                </h3>
                 <ul>
                     <li>
-                        Prototyped interfaces from UX designers for handoff to software engineers, and fixed UI related issues with the scope of application front-end's.
+                        Prototyped interfaces from UX designers for handoff to software engineers, and fixed UI related issues with the scope of application front-ends.
                     </li>
                 </ul>
             </section>
     
-            <hr>
-    
             <h1>
                 Education
             </h1>
+            <hr>
             <section>
                 <h2>
-                    University of Wisconsin - La Crosse - 2018
+                    University of Wisconsin - La Crosse
                 </h2>
-                <h3>
-                    Bachelor of Science in Computer Science
+                <h3 class="flex space-between">
+                    <span>B.S. Computer Science</span>
+                    <span>2014 - 2018</span>
                 </h3>
-                <section>
-                    <p>Relevant course work:</p>
-                </section>
             </section>
         </div>
         
