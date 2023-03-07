@@ -11,7 +11,8 @@ body {
 
 .bullet-column {
     padding: 1.5rem;
-    background-color: scale-color(#FFBF00, $lightness: 50%);
+    background-color: scale-color(#FFBF00, $lightness: 50%); // amber 50% lighter
+    box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 25%);
 }
 
 .content-column {
@@ -23,10 +24,10 @@ section, h1, h2, h3 {
 }
 
 a {
-    color: scale-color(#0B30DB, $saturation: -25%);
+    color: #304fdb; // adobe's complementary suggestion
 
     &:hover {
-        color: scale-color(#011B8F, $saturation: -25%);
+        color: #031c8f;
     }
 }
 
